@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhilesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Mouse Follow Glow Layer -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <!-- Navigation Bar -->
+   <nav class="glass-nav">
+        <div class="nav-container">
+            
+            <!-- REPLACE THE OLD LOGO DIV WITH THIS BLOCK -->
+            <div class="logo-flipper" id="logoFlipper">
+                <!-- Side A: Cartoon Avatar Image -->
+                <img src="C:\portfolio-website\logo.png" alt="AK Logo" class="brand-img active">
+                <!-- Side B: Clean Text Initials -->
+                <span class="brand-text">AK</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" id="contactNavLink">Contact</a></li>
+            </ul>
+            <button class="theme-toggle-btn" id="themeToggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Home Section (Hero) -->
+    <section id="home" class="hero-section">
+        <div class="glass-card hero-card">
+            <h1>Hi, I'm <span class="highlight">Akhilesh</span></h1>
+            <p class="subtitle">Data Analyst Intern at ApexPlanet</p>
+            <p class="subtitle"> Aspiring Full Stack Developer & Data Analyst</p>
+            <div class="social-links">
+                <a href="https://github.com/konathalaakhilesh918" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/akhilesh-konathala" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#" target="_blank" class="resume-btn"><i class="fas fa-file-alt"></i> Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-container">
+        <div class="glass-card about-wrapper">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-grid">
+                <div class="about-narrative">
+                    <h3>Who I Am</h3>
+                    <p>I am a student at <strong>Raghu Engineering College</strong>, pursuing my passion as an aspiring Full-Stack Developer and Data Analyst. I bridge the gap between application development and data-driven solutions by building scalable, real-world systems.</p>
+                    <p>My multi-domain experience spans backend engineering and cloud computing alongside data analytics. This unique intersection allows me to understand not only how to capture and store application data using modern database schemas, but also how to extract, clean, and visualize that information to drive strategic choices.</p>
+                </div>
+
+                <div class="about-highlights">
+                    <h3>What I Bring to the Table</h3>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-code"></i></div>
+                        <div class="highlight-text">
+                            <h4>Full-Stack Engineering</h4>
+                            <p>Building real-world web applications and scalable backend systems using Node.js, Express.js, and MongoDB.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-chart-pie"></i></div>
+                        <div class="highlight-text">
+                            <h4>Data Analytics & Science</h4>
+                            <p>Extracting insights, modeling datasets, and building interactive data storytelling assets using Excel and Python ecosystems.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-cloud"></i></div>
+                        <div class="highlight-text">
+                            <h4>Architecture & Deployment</h4>
+                            <p>Designing structured REST APIs, handling Git/GitHub version tracking, and continuously improving cloud deployment workflows.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fas fa-bezier-curve"></i></div>
+                        <div class="highlight-text">
+                            <h4>User-Centric Architecture</h4>
+                            <p>Fusing technical backend logic with clean UI/UX paradigms to build responsive systems that look beautiful and flow intuitively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-container">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid-extended">
+            
+            <div class="glass-card skill-box">
+                <div class="skill-icon-header">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                </div>
+                <p>Building secure, high-performance, and scalable server-side applications and backend application logic.</p>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>REST APIs</span>
+                    <span>JavaScript (ES6+)</span>
+                </div>
+            </div>
+
+            <div class="glass-card skill-box">
+                <div class="skill-icon-header">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Analytics & Science</h3>
+                </div>
+                <p>Wrangling raw datasets, verifying statistics, and translating complex data into interactive dashboard matrices.</p>
+                <div class="skill-tags">
+                    <span>Data Analytics</span>
+                    <span>Excel</span>
+                    <span>Python</span>
+                    <span>Pandas / Numpy</span>
+                    <span>Data Storytelling</span>
+                </div>
+            </div>
+
+            <div class="glass-card skill-box">
+                <div class="skill-icon-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Database & Cloud</h3>
+                </div>
+                <p>Designing structured data schemas, managing non-relational storage environments, and executing deployments.</p>
+                <div class="skill-tags">
+                    <span>MongoDB</span>
+                    <span>SQL</span>
+                    <span>Cloud Computing</span>
+                    <span>NoSQL Architecture</span>
+                </div>
+            </div>
+
+           <!-- Skill Category 4: Frontend, UI/UX & Architecture Tooling -->
+            <div class="glass-card skill-box">
+                <div class="skill-icon-header">
+                    <i class="fas fa-palette"></i>
+                    <h3>Frontend, UI/UX & Tools</h3>
+                </div>
+                <p>Designing modern user journeys, wireframing digital prototypes, and translating asset mockups into responsive, scannable layouts.</p>
+                <div class="skill-tags">
+                    <span>UI/UX Design</span>
+                    <span>Figma / Wireframing</span>
+                    <span>HTML5 / CSS3</span>
+                    <span>Responsive Web Design</span>
+                    <span>Git / GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-container">
+        <h2 class="section-title">ApexPlanet Showcase</h2>
+        <div class="project-grid">
+            
+            <div class="glass-card project-card">
+                <div class="task-badge">Task 1</div>
+                <h3>Data Immersion & Wrangling</h3>
+                <p>Ingested raw datasets, handled anomalies, and structured data cleaning pipelines to prepare the environment for deep analysis.</p>
+                <div class="tech-stack"><span>Python</span><span>Pandas</span><span>SQL</span></div>
+                <a href="https://github.com/konathalaakhilesh918/ApexPlanet-DataAnalytics-Task1" class="btn" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="task-badge">Task 2</div>
+                <h3>Exploratory Data Analysis (EDA) & Business Intelligence</h3>
+                <p>Uncovered distributions, key correlation patterns, and business metrics using advanced statistical visualization libraries.</p>
+                <div class="tech-stack"><span>Matplotlib</span><span>Seaborn</span><span>Excel</span></div>
+                <a href="https://github.com/konathalaakhilesh918/ApexPlanet-DataAnalytics-Task2" class="btn" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="task-badge">Task 3</div>
+                <h3>Deep-Dive Analysis & Interactive Dashboarding</h3>
+                <p>Constructed interactive visualizations and business dashboards to drill down into complex performance metrics.</p>
+                <div class="tech-stack"><span>Power BI</span><span>Tableau</span><span>Data Studio</span></div>
+                <a href="https://github.com/konathalaakhilesh918/ApexPlanet-DataAnalytics-Task3" class="btn" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="task-badge">Task 4</div>
+                <h3>Data Storytelling & Statistical Validation</h3>
+                <p>Synthesized metrics into an executive-level data narrative backed by rigorous statistical verification and a polished presentation deck.</p>
+                <div class="tech-stack"><span>Statistical Modeling</span><span>Presentations</span></div>
+                <a href="https://github.com/konathalaakhilesh918/ApexPlanet-DataAnalytics-Task4" class="btn" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="glass-card project-card">
+                <div class="task-badge">Task 5</div>
+                <h3>Capstone Integration & Portfolio Finalization</h3>
+                <p>Consolidated all milestones into a master repository and built this interactive glassmorphism portfolio platform featuring custom responsive layout components and modern UI/UX workflows.</p>
+                <div class="tech-stack"><span>HTML5 / CSS3</span><span>JavaScript</span><span>UI/UX Design</span><span>GitHub Pages</span></div>
+                <a href="#" class="btn" target="_blank">View Live App <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+        </div>
+    </section> 
+
+    <!-- JUST ADD THIS NEW MODAL BLOCK HERE -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="glass-card modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <h3>Let's Connect</h3>
+            <p class="modal-sub">Send a message directly to my inbox.</p>
+            <form id="emailForm">
+                <input type="text" id="senderName" placeholder="Your Name" required>
+                <textarea id="mailMessage" placeholder="Your Message..." rows="4" required></textarea>
+                <button type="submit" class="btn">Launch Mail Client <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer>
+        <div class="footer-contact-container">
+            <h3>Let's build something impactful together</h3>
+            <a href="#contact" class="btn footer-cta-btn" id="footerContactBtn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <hr class="footer-divider">
+        <p class="copyright-text">&copy; 2026 Akhilesh. All Rights Reserved. | Built for ApexPlanet Capstone Integration.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
